@@ -89,28 +89,18 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endif %}
 
 
-{% comment %}
-EVENTBRITE
-
-This block includes the Eventbrite registration widget if
-'eventbrite' has been set in the header.  You can delete it if you
-are not using Eventbrite, or leave it in, since it will not be
-displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
-
-{% if page.eventbrite %}
-<strong>Some adblockers block the registration window. If you do not see the registration box below, please check your adblocker settings.</strong>
-<div id="eventbrite-widget-container"></div>
-<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-<script type="text/javascript">
-    window.EBWidgets.createWidget({
-        // Required
-        widgetType: 'checkout',
-        eventId: {{page.eventbrite}},
-        iframeContainerId: 'eventbrite-widget-container',
-    });
-</script>
-{% endif %}
+<div class="row" style="margin-top: 1em; margin-bottom: 1em;">
+  <div class="col-md-6 text-center" style="margin-bottom: 1em;">
+    <a href="https://libcal.mit.edu/calendar/events/2026-08-20-mit" class="btn btn-primary btn-lg w-100" target="_blank" rel="noopener noreferrer">
+      Register for Unix Shell & Git (August 20)
+    </a>
+  </div>
+  <div class="col-md-6 text-center">
+    <a href="https://libcal.mit.edu/calendar/events/2026-08-21-24-mit" class="btn btn-primary btn-lg w-100" target="_blank" rel="noopener noreferrer">
+      Register for Python (August 21 & 24)
+    </a>
+  </div>
+</div>
 
 
 {% comment %}
