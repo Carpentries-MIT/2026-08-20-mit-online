@@ -12,7 +12,7 @@ humantime: "Unix Shell & Git: 9 AM - 5 PM ET <br> Python: 10 AM - 4 PM ET"    # 
 startdate: 2026-08-20      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2026-08-24        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Myat Mo", "Jose Niño Muriel", "Nil Tianchen Mu", "Meron Dibia", "Angie Serafini"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Raissa Marques Mendonca", "Ece Turnator", "Paxton LaJoie", "Jonavelle Cuerdo", "Alejandro Paz", "Matt Bernhardt", "Erin Shives"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Raissa Marques Mendonca", "Ece Turnator", "Paxton LaJoie", "Jonavelle Cuerdo", "Alejandro Paz", "Matt Bernhardt", "Erin Shives", "Foster Birnbaum", "Jo Hickman"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["carpentries-instructor@mit.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 # Optional variables
 collaborative_notes: https://pad.carpentries.org/2026-08-20-mit-online # URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
